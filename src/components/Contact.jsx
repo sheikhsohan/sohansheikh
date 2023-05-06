@@ -7,7 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import VisitorCount from "./Custom/VisitorCount";
+
 import developer from '../assets/developer.jpg'
+
 
 
 const Contact = () => {
@@ -134,6 +137,7 @@ const Contact = () => {
   Developed by <strong className='text-red-600'>Sohan</strong> <img src={developer} alt="Image Description" className="inline-block ml-2 w-9 h-9 rounded-[5px]" />
 </footer>
 
+    <VisitorCount />
     </div>
   );
 };
