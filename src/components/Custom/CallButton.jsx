@@ -91,7 +91,7 @@ function CallButton({ phoneNumber }) {
       </button>
 
       <div className="call-now-text" style={buttonTextStyles}>
-        Call Now
+        Call Me
       </div>
     </div>
   );
