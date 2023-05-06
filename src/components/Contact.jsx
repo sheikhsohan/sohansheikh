@@ -11,6 +11,7 @@ import VisitorCount from "./Custom/VisitorCount";
 
 import developer from '../assets/developer.jpg'
 import CallButton from "./Custom/CallButton";
+import Footer from "./Footer";
 
 
 
@@ -135,9 +136,8 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
-      <footer className="fixed bottom-0 right-0 w-full text-gray text-center p-2 sm:flex-row sm:w-auto hidden sm:block">
-  Developed by <strong className='text-red-600'>Sohan</strong> <img src={developer} alt="Image Description" className="inline-block ml-2 w-9 h-9 rounded-[5px]" />
-</footer>
+      
+      <Footer />
 
     <VisitorCount />
     <CallButton phoneNumber="01859650372" />
