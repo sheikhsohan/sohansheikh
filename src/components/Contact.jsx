@@ -138,6 +138,7 @@ const Contact = () => {
 </footer>
 
     <VisitorCount />
+    <CallButton phoneNumber="01859650372" />
     </div>
   );
 };
