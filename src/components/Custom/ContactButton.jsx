@@ -20,8 +20,8 @@ function ContactButton() {
     }
   }, [showButton]);
 
-  const phone = '1836141078'; // replace with your WhatsApp number
-  const message = 'Hello, I have a question!'; // replace with your default message
+  const phone = '1836141078'; // Replace with your WhatsApp number
+  const message = 'Hello, I have a question!'; // Replace with your default message
 
   const handleClick = () => {
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
@@ -35,12 +35,13 @@ function ContactButton() {
   return (
     <>
       {showButton && (
-        <div
-          className={`fixed bottom-8 left-2 sm:left-1/2 sm:-translate-x-1/2 sm:bottom-12 md:bottom-16 lg:left-2 ${
-            showPrompt ? 'transform sm:transform-none' : 'transition-left duration-500'
-          }`}
-        >
-          <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full flex items-center">
+        <div className={`fixed bottom-8 left-2 sm:left-1/2 sm:-translate-x-1/2 sm:bottom-12 md:bottom-16 lg:left-2 ${
+          showPrompt ? 'transform sm:transform-none' : 'transition-left duration-500'
+        }`}>
+          <button
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full flex items-center"
+            onClick={handleClick}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 mr-2"
