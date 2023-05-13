@@ -54,7 +54,7 @@ function ContactButton() {
                 clipRule="evenodd"
               />
             </svg>
-            Chat with Us on WhatsApp
+            Chat with Me on WhatsApp
             <span
               className="ml-2 text-gray-400 hover:text-gray-500 cursor-pointer"
               onClick={handleIconClick}
