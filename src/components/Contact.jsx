@@ -12,6 +12,10 @@ import VisitorCount from "./Custom/VisitorCount";
 import developer from '../assets/developer.jpg'
 import CallButton from "./Custom/CallButton";
 import Footer from "./Footer";
+<<<<<<< HEAD
+import ContactButton from "./Custom/ContactButton";
+=======
+>>>>>>> fcf3cefe967248a5b04aafc24328700001741044
 
 
 
@@ -138,9 +142,10 @@ const Contact = () => {
       </motion.div>
       
       <Footer />
+      <ContactButton />
 
-    <VisitorCount />
-    <CallButton phoneNumber="01859650372" />
+    {/* <VisitorCount /> */}
+    {/* <CallButton phoneNumber="01859650372" /> */}
     </div>
   );
 };
