@@ -1,5 +1,6 @@
 import portfolio from '../assets/portfolio.png'
 import youga from '../assets/yogap.png'
+import calculator from '../assets/calculator.png'
 
 import {
     mobile,
@@ -261,6 +262,27 @@ import {
         },
       ],
       image: youga,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Calculator",
+      description:
+        "The Calculator project is a modern and functional web-based calculator that allows users to perform basic arithmetic operations and more advanced calculations. Also this calculator provides a clean and intuitive user interface for effortless calculations.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "html",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: calculator,
       source_code_link: "https://github.com/",
     },
     // {
