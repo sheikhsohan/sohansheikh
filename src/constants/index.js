@@ -1,6 +1,7 @@
 import portfolio from '../assets/portfolio.png'
 import youga from '../assets/yogap.png'
 import calculator from '../assets/calculator.png'
+import boxmodel from '../assets/boxmodel.gif'
 
 import {
     mobile,
@@ -284,6 +285,27 @@ import {
       ],
       image: calculator,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Animated 3D Box",
+      description:
+        "This is a visually captivating and interactive platform that showcases a three-dimensional box model. This immersive website allows users to explore and interact with a virtual box, providing a unique and engaging experience.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "html",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: boxmodel,
+      source_code_link: "https://3-d-box.vercel.app",
     },
     // {
     //   name: "Trip Guide",
