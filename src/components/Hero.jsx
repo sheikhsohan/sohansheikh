@@ -21,12 +21,20 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I also develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            interfaces, and web applications
           </p>
         </div>
       </div>
 
       {!isMobile && <ComputersCanvas />}
+
+      {isMobile && (
+        <div className='absolute inset-0 flex justify-center items-center'>
+          <p className='text-white text-lg'>
+            Your mobile browser doesn't support 3D animation. Please visit the desktop version to experience the full website.
+          </p>
+        </div>
+      )}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
