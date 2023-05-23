@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
-const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+const isMobile = /Mobile/i.test(navigator.userAgent) && !/iPad|Android/i.test(navigator.userAgent);
 
 const Hero = () => {
   return (
