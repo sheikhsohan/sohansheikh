@@ -2,6 +2,8 @@ import portfolio from '../assets/portfolio.png'
 import youga from '../assets/yogap.png'
 import calculator from '../assets/calculator.png'
 import boxmodel from '../assets/boxmodel.gif'
+import nomedf from '../assets/nomedf.png'
+import modernstore from '../assets/modernstore.png'
 
 import {
     mobile,
@@ -221,7 +223,28 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/sheikhsohan/project_shirt",
+      source_code_link: "https://project-shirt.vercel.app/",
+    },
+    {
+      name: "Modern Ecommerce Store",
+      description:
+        "Web-based platform that allows users to create your unique and exclusive shirt with our brand-new 3D customizaion tool. Unleash your imagination and define your own style.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NEXTjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sanity",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: modernstore,
+      source_code_link: "https://ecommercebyhadiuzzaman.vercel.app/",
     },
     {
       name: "Portfolio",
@@ -264,6 +287,27 @@ import {
       ],
       image: youga,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Nomed Force",
+      description:
+        "Nomed Force is an innovative online platform dedicated to video projects. It serves as a one-stop destination for individuals and businesses looking to create, discover, and collaborate on various video-based endeavors.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nomedf,
+      source_code_link: "https://react-nomed.vercel.app/",
     },
     {
       name: "Calculator",
