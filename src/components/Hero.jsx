@@ -31,7 +31,7 @@ const Hero = () => {
       {isMobile && (
         <div className='absolute inset-0 flex justify-center items-center'>
           <p className='text-white text-lg'>
-            Your mobile browser doesn't support 3D animation. Please visit the desktop version to experience the full website.
+            Your mobile browser doesn't support 3D animation. Please visit the Desktop Browser to experience the full website.
           </p>
         </div>
       )}
