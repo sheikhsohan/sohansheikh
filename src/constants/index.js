@@ -23,13 +23,8 @@ import {
     git,
     figma,
     docker,
-    meta,
     starbucks,
-    tesla,
-    shopify,
     carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -136,45 +131,6 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -331,68 +287,47 @@ import {
       image: organic,
       source_code_link: "https://organic-food-jade.vercel.app",
     },
-    {
-      name: "Calculator",
-      description:
-        "The Calculator project is a modern and functional web-based calculator that allows users to perform basic arithmetic operations and more advanced calculations. Also this calculator provides a clean and intuitive user interface for effortless calculations.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "html",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: calculator,
-      source_code_link: "https://colorful-calculator.vercel.app/",
-    },
-    {
-      name: "Animated 3D Box",
-      description:
-        "This is a visually captivating and interactive platform that showcases a three-dimensional box model. This immersive website allows users to explore and interact with a virtual box, providing a unique and engaging experience.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "html",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: boxmodel,
-      source_code_link: "https://3-d-box.vercel.app",
-    },
     // {
-    //   name: "Trip Guide",
+    //   name: "Calculator",
     //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //     "The Calculator project is a modern and functional web-based calculator that allows users to perform basic arithmetic operations and more advanced calculations. Also this calculator provides a clean and intuitive user interface for effortless calculations.",
     //   tags: [
     //     {
-    //       name: "nextjs",
+    //       name: "javascript",
     //       color: "blue-text-gradient",
     //     },
     //     {
-    //       name: "supabase",
+    //       name: "css",
     //       color: "green-text-gradient",
     //     },
     //     {
-    //       name: "css",
+    //       name: "html",
     //       color: "pink-text-gradient",
     //     },
     //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
+    //   image: calculator,
+    //   source_code_link: "https://colorful-calculator.vercel.app/",
+    // },
+    // {
+    //   name: "Animated 3D Box",
+    //   description:
+    //     "This is a visually captivating and interactive platform that showcases a three-dimensional box model. This immersive website allows users to explore and interact with a virtual box, providing a unique and engaging experience.",
+    //   tags: [
+    //     {
+    //       name: "javascript",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "html",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: boxmodel,
+    //   source_code_link: "https://3-d-box.vercel.app",
     // },
   ];
   
