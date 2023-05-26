@@ -3,6 +3,7 @@ import youga from '../assets/yogap.png'
 import calculator from '../assets/calculator.png'
 import boxmodel from '../assets/boxmodel.gif'
 import nomedf from '../assets/nomedf.png'
+import organic from '../assets/organic.png'
 import modernstore from '../assets/modernstore.png'
 
 import {
@@ -308,6 +309,27 @@ import {
       ],
       image: nomedf,
       source_code_link: "https://react-nomed.vercel.app/",
+    },
+    {
+      name: "Organic Food",
+      description:
+        "Nomed Force is an innovative online platform dedicated to video projects. It serves as a one-stop destination for individuals and businesses looking to create, discover, and collaborate on various video-based endeavors.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: organic,
+      source_code_link: "https://organic-food-jade.vercel.app",
     },
     {
       name: "Calculator",
